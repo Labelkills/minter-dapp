@@ -12,7 +12,7 @@
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #eb3922;
+  --accent-color: black;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -45,7 +45,8 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: black;
+  border-top: 3px solid #eb3922;
   box-shadow: var(--header-shadow);
 }
 
@@ -59,6 +60,14 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+/* Red Bar */
+.red-bar {
+  margin: auto;
+  width: 36px;
+  height: 3px;
+  background: #eb3922;
 }
 
 /* NOT CONNECTED */
@@ -102,8 +111,8 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
+  background: #eb3922;
+  color: black;
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
@@ -142,7 +151,7 @@ header .container {
   position: relative;
   background-color: var(--bg-color);
   border-radius: 5px;
-  border: 3px solid var(--accent-color);
+  /* border: 3px solid var(--accent-color); */
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
