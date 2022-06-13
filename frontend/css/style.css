@@ -88,7 +88,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  /* font-style: italic; */
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -149,7 +149,7 @@ header .container {
 
 .card {
   position: relative;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   border-radius: 5px;
   /* border: 3px solid var(--accent-color); */
   box-shadow: var(--card-shadow);
