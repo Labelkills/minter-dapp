@@ -9,7 +9,7 @@
   --font-secondary: "Mulish", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #2e2e2e;
-  --bg-color-transparent: #00163f80;
+  --bg-color-transparent: black;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: black;
@@ -24,7 +24,8 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: linear-gradient(#2e2e2e, black);
+  /* background-color: var(--bg-color); */
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -90,7 +91,7 @@ header .container {
   text-shadow: 2px 2px 0 var(--accent-color);
   /* font-style: italic; */
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
 }
 
 .not-connected p {
