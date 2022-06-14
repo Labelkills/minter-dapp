@@ -8,7 +8,7 @@
   --font-primary: "Fjalla", sans-serif;
   --font-secondary: "Mulish", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #2e2e2e;
+  --bg-color: linear-gradient(to bottom right, #2e2e2e, black);
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
@@ -134,7 +134,7 @@ header .container {
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: .25rem;
   margin-left: 2rem;
   border-color: transparent;
 }
