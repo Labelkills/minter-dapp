@@ -1,5 +1,5 @@
-const contractAddress = "0x902193292583A593157aA9f80cF85002ae1B2Bc9"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xb8F39CE9103f3FD01cA7Df143EBB7172c0F9E1c4"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Magic Maidens NFT Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
